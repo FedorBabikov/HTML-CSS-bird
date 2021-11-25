@@ -1,0 +1,45 @@
+
+.container, .head {
+    position: relative;
+}
+
+.container {
+    width: 800px;
+    height: 450px;
+    margin: 30% auto;
+    background-color: rgb(56, 196, 252);
+}
+
+
+.head {
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    height: 70%;
+    width: 40%;
+    background-color: black;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+
+}
+
+.eye {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    height: 30px;
+    width: 30px;
+    background-color: white;
+}
+
+.beak {
+    position: absolute;
+    top: 30%;
+    right: -65px;
+    border: 70px solid transparent;
+    border-left: 65px solid rgb(254, 216, 84);
+    border-right: 0;
+    height: 0;
+    width: 0;
+}
